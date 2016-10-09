@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="test">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="cloud_study"/>
+    <schema id="3" name="db_blog"/>
+    <schema id="4" name="employees"/>
+    <schema id="5" name="information_schema"/>
+    <schema id="6" name="mysql"/>
+    <schema id="7" name="performance_schema"/>
+    <table id="8" parent="1" name="UserBalance"/>
+    <table id="9" parent="1" name="t"/>
+    <column id="10" parent="8" name="userId">
+      <data-type>mediumtext|0</data-type>
+    </column>
+    <column id="11" parent="8" name="userName">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="12" parent="8" name="balance">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="13" parent="9" name="a">
+      <data-type>int(4) unsigned zerofill|0</data-type>
+    </column>
+    <column id="14" parent="9" name="b">
+      <data-type>int(10) unsigned|0</data-type>
+    </column>
+  </database-model>
+</dataSource>
